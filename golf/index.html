@@ -1,0 +1,172 @@
+<html>
+
+<head>
+    <title>this is my page</title>
+    <style>
+        .navbar {
+            background-color: #153c0e;
+
+        }
+
+        .navbar ul {
+            overflow: auto;
+
+        }
+
+        .navbar li {
+            float: left;
+            list-style: none;
+            margin: 11px 20px;
+        }
+
+        .navbar li a {
+            padding: 4px 4px;
+            text-decoration: none;
+            color: aliceblue;
+            font-size: 115%;
+
+        }
+
+        .search {
+            float: right;
+            margin: 11px 93px;
+            padding: 4px 46px;
+            border-radius: 16px;
+            border: none;
+            font-size: medium;
+
+        }
+
+        .point:hover {
+            color: red;
+        }
+
+        .src {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(golf1.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100vh;
+            margin: -40px 1px;
+        }
+
+        .subrata {
+            color: aliceblue;
+            padding: 55px 63px;
+            font-size: 40px;
+        }
+
+        .about {
+            color: antiquewhite;
+            width: 83%;
+            padding: 0px 62px;
+            margin: -75px 1px;
+        }
+
+        .notic {
+            color: red;
+            margin: 118px 63px;
+
+            background-color: beige;
+            width: 312px;
+        }
+
+        .list {
+            text-decoration: none;
+        }
+
+        .summary {
+            color: aliceblue;
+
+            margin: 1px 40px;
+            padding: 1px 22px;
+            float: right;
+
+        }
+
+        .details {
+
+            color: wheat;
+            float: right;
+
+
+        }
+
+        .h {
+            margin: -23px 13px;
+        }
+
+        .pos {
+            padding: 105px 113px;
+
+        }
+
+        .h:hover {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#" class="point">Home</a></li>
+                <li><a href="#" class="point">About</a></li>
+                <li><a href="#" class="point">Servic</a></li>
+                <li><a href="#" class="point">Contact us</a></li>
+                <div class="divbox">
+                    <input type="text" class="search" name="search" placeholder="search this website">
+                </div>
+            </ul>
+
+        </nav>
+
+    </header>
+    <div class="src">
+
+        <h3 class="subrata"> Welcome To <br>Subrata Golf Academy</h3>
+        <h4 class="about">Welcome to the world of Golf! Join the fraternity of worldwide golfers wherever you are. Grab
+            the game of
+            Golf as a powerful networking tool in building relationship among the gentlest of game lovers, the extra
+            edge of enjoying the select society around you and mix in beyond boundaries which are crucial in today's
+            social circle</h4>
+
+        <div class="pos">
+            <details class="details">
+                <summary class="summary">
+                    <h2 class="h">Enrollment Now</h2>
+                </summary><br>
+
+                <form action="backend.php" target="blank"><br>
+                    <div> Name :<input type="text"></div><br>
+                    <div> Father Name :<input type="text"></div><br>
+                    <div> Mother Name :<input type="text"></div><br>
+                    <div> DOB :<input type="date"></div><br>
+                    <div> Email :<input type="email"></div><br>
+                    <div> Ph Number :<input type="number"></div><br>
+                    <div>Male :<input type="radio" Name="gender">
+                        Female :<input type="radio" Name="gender">
+                        Other :<input type="radio" Name="gender"></div>
+                    <div> Above 18+ :<input type="checkbox"></div><br>
+                    <div>
+                        Write about yourself:<br> <textarea name="my text"></textarea>
+                    </div>
+                    <div><input type="submit" Name="submit"></div>
+
+                    <div><input type="reset" Name="reset"></div><br>
+
+
+                </form>
+            </details>
+        </div>
+
+    </div>
+
+
+
+
+
+</body>
+
+</html>
